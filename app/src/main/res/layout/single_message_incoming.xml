@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:padding="8dp"
+    android:gravity="start"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:textStyle="italic"
+        tools:text="Event: Online"
+        android:id="@+id/event_text"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="8dp"
+        android:minWidth="80dp"
+        android:background="@drawable/bg_message_incoming"
+        tools:text="Online"
+        android:id="@+id/message_text"
+        android:layout_height="wrap_content" />
+</LinearLayout>

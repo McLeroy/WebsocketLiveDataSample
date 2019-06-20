@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/recycler_view"
+        android:layout_height="0dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorDivider"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/type_something___"
+            android:inputType="textCapSentences"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:id="@+id/content_text"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/ic_send_black_24dp"
+            app:tint="@android:color/white"
+            android:id="@+id/send_btn"
+            app:elevation="0dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wesockets LiveData Sample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_something___">Type something…</string>
+    <string name="socket_connection_error_message">Yo! Please check your network. But I will keep trying as long as you have an active internet connection</string>
+    <string name="socket_offline_message">You are now offline. Bye!</string>
+    <string name="event">Event</string>
+</resources>
